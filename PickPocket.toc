@@ -1,0 +1,4 @@
+## Interface: 90200
+## Title: PickPocket
+## Author: Dabeuliou
+## Version: 0.1
