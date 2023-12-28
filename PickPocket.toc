@@ -1,4 +1,12 @@
 ## Interface: 90200
 ## Title: PickPocket
+## Notes: addon made for learning LUA!
+## Notes-frFR: Addon fait pour apprendre le LUA
 ## Author: Dabeuliou
 ## Version: 0.1
+## SavedVariables: PickPocketGlobalVariables
+## SavedVariablesPerCharacter: PickPocketCharacterVariables
+
+localizations\localization.core.lua
+localizations\localization.frFR.lua
+PickPocket.lua
