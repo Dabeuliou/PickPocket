@@ -1,3 +1,5 @@
+-- Variables declarations
+local L = ...;
 
 -- Slash commands
 SLASH_PICKPOCKET1, SLASH_PICKPOCKET2 = '/pp', '/pickpocket'
@@ -11,7 +13,7 @@ function SlashCmdList.PICKPOCKET(msg, editbox)
     end
 end
 
-
+-- Event frame creation
 local EventFrame = CreateFrame("frame", "EventFrame")
 EventFrame:RegisterEvent("UNIT_SPELLCAST_SUCCEEDED")
 EventFrame:RegisterEvent("LOOT_READY")
