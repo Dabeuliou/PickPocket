@@ -16,6 +16,7 @@
                 "E:/World of Warcraft/_retail_/Interface/AddOns/PickPocket",
                 "*.toc",
                 "*.lua",
+                "*.xml",
                 "/S"
             ],
             "problemMatcher": []
