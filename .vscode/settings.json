@@ -1,6 +1,9 @@
 {
     "Lua.diagnostics.globals": [
         "SlashCmdList",
-        "TOTAL"
+        "DEFAULT_CHAT_FRAME",
+        "ChatEdit_SendText",
+        "GetLocale",
+        "setmetatable"
     ]
 }

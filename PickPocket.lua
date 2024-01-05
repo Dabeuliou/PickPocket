@@ -1,13 +1,13 @@
 -- Variables declarations
-local L = ...;
+local _, LocalizationTable = ...;
 
 -- Slash commands
 SLASH_PICKPOCKET1, SLASH_PICKPOCKET2 = '/pp', '/pickpocket'
 function SlashCmdList.PICKPOCKET(msg, editbox)
     if msg == "hello" then
-        print(L["HELLO_WORLD"])
+        print(LocalizationTable.LOCSTRING_HELLO_WORLD)
     elseif msg == "status" then
-        print(L["TOTAL_COINS_PIKPOCKETED"])
+        print(LocalizationTable.LOCSTRING_TOTAL_COINS_PIKPOCKETED)
     else
 --        openOptionsWindow()
     end

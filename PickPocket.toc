@@ -7,6 +7,7 @@
 ## SavedVariables: PickPocketGlobalVariables
 ## SavedVariablesPerCharacter: PickPocketCharacterVariables
 
-localizations\localization.core.lua
-localizations\localization.frFR.lua
+localizations/localization.core.lua
+localizations/localization.enEN.lua
+localizations/localization.frFR.lua
 PickPocket.lua
